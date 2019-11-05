@@ -1,21 +1,16 @@
 import React from "react"
-import { Link } from "gatsby"
-
+import Logo from "../components/logopurple"
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+import "./index.css"
 
-const IndexPage = () => (
+const HomePage = () => (
   <Layout>
     <SEO title="Home" />
-    <div className="lbt">le bon temps</div>
-    <div>Travel + Events</div>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <div><Link to="/about/">About</Link></div>
-    <div><Link to="/contact/">Contact</Link></div>
+    <div className="br">hello</div>
+    <div className="bl">hello</div>
+    <div className="bt">hello</div>
   </Layout>
 )
 
-export default IndexPage
+export default HomePage

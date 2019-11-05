@@ -1,14 +1,34 @@
 html {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 body {
-  margin: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "brandonlight", sans-serif;
   text-rendering: optimizeLegibility;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+.hidden {
+  display: none;
 }
 
 @font-face {
@@ -17,32 +37,100 @@ body {
 }
 
 @font-face {
+  font-family: "brandonthin";
+  src: url("../fonts/brandonthin.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "brandonbold";
+  src: url("../fonts/brandonbld.otf") format("truetype");
+}
+
+@font-face {
   font-family: "brandonlight";
   src: url("../fonts/brandonlight.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "brandonlightitalic";
+  src: url("../fonts/brandonlightit.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "brandonmediumitalic";
+  src: url("../fonts/Brandonmedit.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "brandonmedium";
+  src: url("../fonts/brandonmed.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "brandonregular";
+  src: url("../fonts/brandonregular.ttf") format("truetype");
+}
+
 .lbt {
   font-family: "mina", sans-serif;
-  font-size: 64px;
+  font-size: 48px;
+  text-rendering: optimizeLegibility;
+}
+
+.bli {
+  font-family: "brandonlightitalic", sans-serif;
+  font-size: 24px;
+  text-rendering: optimizeLegibility;
+}
+
+.bmi {
+  font-family: "brandonmediumitalic", sans-serif;
+  font-size: 24px;
+  text-rendering: optimizeLegibility;
+}
+
+.bm {
+  font-family: "brandonmedium", sans-serif;
+  font-size: 24px;
+  text-rendering: optimizeLegibility;
+}
+
+.bl {
+  font-family: "brandonlight", sans-serif;
+  font-size: 24px;
+  text-rendering: optimizeLegibility;
+}
+
+.bt {
+  font-family: "brandonthin", sans-serif;
+  font-size: 24px;
+  text-rendering: optimizeLegibility;
+}
+
+.br {
+  font-family: "brandonregular", sans-serif;
+  font-size: 24px;
+  text-rendering: optimizeLegibility;
+}
+
+.bb {
+  font-family: "brandonbold", sans-serif;
+  font-size: 36px;
   text-rendering: optimizeLegibility;
 }
 
 /* min-width: 480px */
-@media (min-width: 1px) and (max-width:  767px) {
-
+@media (min-width: 1px) and (max-width: 767px) {
 }
 
 /* min-width: 768px	 */
-@media (min-width:  768px) and (max-width: 991px) {
-
+@media (min-width: 768px) and (max-width: 991px) {
 }
 
 /* min-width: 992px	 */
 @media (min-width: 991px) and (max-width: 1199px) {
-
 }
 
 /* min-width: 1200px	 */
 @media (min-width: 1200px) {
-
 }

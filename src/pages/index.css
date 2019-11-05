@@ -1,0 +1,14 @@
+.home {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  /* background-image: url("../images/event2.jpg");  */
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-logo {
+  height: auto;
+  width: 300px;
+}
